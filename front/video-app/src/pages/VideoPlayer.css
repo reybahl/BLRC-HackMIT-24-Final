@@ -1,0 +1,53 @@
+.video-player-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.video-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.video-description {
+  margin-bottom: 20px;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+}
+
+.video-player {
+  width: 60%;
+  max-width: 800px;
+}
+
+.transcript-container {
+  width: 40%;
+  max-height: 500px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.transcript-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.transcript-item.active {
+  background-color: #f0f0f0;
+}
+
+.timestamp {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.transcript-item img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}

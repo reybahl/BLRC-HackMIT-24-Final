@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "framer-motion": "^11.5.4",
+    "lucide-react": "^0.441.0"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^5.0.2"
+  }
+}
